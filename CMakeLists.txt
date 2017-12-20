@@ -1,0 +1,8 @@
+INCLUDE (KBT)
+cmake_minimum_required(VERSION 3.5)
+KBT_PROJECT(testnacl)
+KBT_SET_ARCH(x86)
+KBT_SET_PLATFORM(Linux)
+KBT_SET_PROJECT_TYPE(bin)
+KBT_CONFIG()
+
