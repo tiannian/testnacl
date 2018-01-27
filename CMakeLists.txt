@@ -1,5 +1,5 @@
-# INCLUDE (KBT)
-include(./build/KBT-command/KBT.cmake)
+INCLUDE (KBT)
+# include(./build/KBT-command/KBT.cmake)
 cmake_minimum_required(VERSION 3.10)
 KBT_PROJECT(testnacl)
 KBT_SET_ARCH(x86)
